@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 
     // send a message
     if( status == 0 ) {
-        status = write(s, "$$$", 3);
+        status = write(s, "test", 3);
     }
 
     if( status < 0 ) perror("uh oh");
